@@ -28,7 +28,7 @@ body {
   position: absolute;
   bottom: 470px;
   left: -90px;
-    position: fixed;
+  position: fixed;
 }
 /* svg end */
 
@@ -42,7 +42,7 @@ body {
 }
 .card {
   width: 400px;
-  height: 400px;
+  height: 500px;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -104,3 +104,66 @@ body {
   font-weight: 400;
   align-self: flex-start;
 }
+/* media */
+@media screen and (max-width: 800px) {
+  .bottom-svg {
+    position: absolute;
+    left: 200px;
+  }
+  .top-svg {
+    position: absolute;
+    right: 0px;
+   left: -500px;
+  }
+  .card{
+  width: 300px;
+  height: 500px;
+  font-size: 15px;
+  }
+  .victor{
+   width: 50px;
+   height: 50px;
+  }
+  .inner-span{
+   font-size: 10px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .bottom-svg {
+    position: absolute;
+    left: 200px;
+  }
+  .top-svg {
+    position: absolute;
+    right: 0px;
+   left: -500px;
+  }
+  .card{
+  width: 400px;
+  height: 200px;
+  font-size: 15px;
+  }
+  .victor{
+   width: 50px;
+   height: 50px;
+  }
+  .inner-span{
+   font-size: 10px;
+  }
+  .line-height{
+   line-height: 10px;
+  }
+  .card .victor{
+   font-size: 15px;
+   line-height: 15px;
+  }
+  .likes , .followers , .photos{
+   font-size: 14px;
+  }
+  .user-img{
+   width: 60px;
+   height: 60px;
+  }
+ 
+}
+
