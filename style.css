@@ -1,0 +1,31 @@
+/* Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%) */
+/* defaults */
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+}
+body{
+ background-color:hsl(185, 75%, 39%) ;
+width: 1440px;
+overflow: hidden;
+}
+/* defaults end */
+
+/* svg */
+.bottom-svg{
+ position: relative;
+ bottom: 470px;
+ left: 1140px;
+ overflow: hidden;
+}
+.top-svg{
+ position: relative;
+ bottom: 400px;
+ right: 200px;
+}
+/* svg end */
+
+/* card start */
